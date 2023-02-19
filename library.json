@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "book number 1",
+        "author": "author number 1",
+        "borrowed": true,
+        "borrowers": [
+            { 
+                "id": 1,
+                "userName": "lama",
+                "borrowingDate": "12-22-2023"
+            },
+            {
+                "id": 2,
+                "userName": "hana",
+                "borrowingDate": "12-22-2023"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "book number 2",
+        "author": "author number 2",
+        "borrowed": false,
+        "borrowers": [
+            { 
+                "id": 1,
+                "userName": "Ahmad",
+                "borrowingDate": "12-22-2023"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "book number 3",
+        "author": "author number 3",
+        "borrowed": true,
+        "borrowers": [
+            { 
+                "id": 1,
+                "userName": "Ahmad",
+                "borrowingDate": "12-22-2023"
+            },
+            {
+                "id": 2,
+                "userName": "Fahad",
+                "borrowingDate": "12-22-2023"
+            }
+        ]
+    }
+    
+]
